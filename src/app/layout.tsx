@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Win El Dhaw — Tunisia',
-    description: "Live power outage map for Tunisia. Where's the light?",
+    description: 'Live power outage map for Tunisia. Where is the light?',
     type: 'website',
     locale: 'fr_TN',
     siteName: 'Win El Dhaw',
