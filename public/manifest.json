@@ -1,0 +1,16 @@
+{
+  "name": "STEG Cut Tracker Tunisia",
+  "short_name": "STEG Tracker",
+  "description": "Real-time power outage map for Tunisia",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f8fafc",
+  "theme_color": "#ef4444",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+name: STEG Scraper
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install requests --quiet
+
+      - name: Run scraper
+        env:
+          SCRAPER_TARGET_URL: ${{ secrets.SCRAPER_TARGET_URL || 'https://steg-tracker.vercel.app/api/scraper-trigger' }}
+        run: python scraper.py
