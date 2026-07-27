@@ -10,6 +10,7 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,css}\""
   },
   "dependencies": {
+    "@next/third-parties": "^16.2.12",
     "@supabase/supabase-js": "^2.45.0",
     "framer-motion": "^12.42.2",
     "leaflet": "^1.9.4",

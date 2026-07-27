@@ -8,9 +8,19 @@
   "theme_color": "#ef4444",
   "icons": [
     {
-      "src": "/icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
+      "src": "/icon.png",
+      "sizes": "825x810",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/thumbnail.png",
+      "sizes": "1430x736",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Win El Dhaw — Tunisia power outage map"
     }
   ]
 }

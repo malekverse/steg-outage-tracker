@@ -26,6 +26,7 @@ Copy `.env.local.example` to `.env.local` and fill in:
 
 - `NEXT_PUBLIC_SUPABASE_URL` — from Supabase project settings
 - `NEXT_PUBLIC_SUPABASE_ANON_KEY` — from Supabase project settings
+- `NEXT_PUBLIC_GA_MEASUREMENT_ID` — optional GA4 measurement ID (e.g. `G-XXXXXXXXXX`)
 - `TELEGRAM_BOT_TOKEN` — from @BotFather
 - `ADMIN_PASSWORD` — for `/admin` dashboard access
 
