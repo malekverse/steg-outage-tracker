@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest an idea for STEG Cut Tracker
+about: Suggest an idea for Win El Dhaw
 title: '[FEATURE] '
 labels: enhancement
 assignees: ''

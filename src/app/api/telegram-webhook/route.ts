@@ -148,7 +148,7 @@ export async function POST(req: NextRequest) {
     if (text.startsWith('/start')) {
       await call('sendMessage', {
         chat_id: chatId,
-        text: '🔌 *STEG Cut Tracker Tunisia*\n\nSignalez une coupure :\n1. Envoyez votre *position* 📍\n2. Choisissez un gouvernorat 👇\n3. Écrivez un nom (ex: "Coupure Sfax")',
+        text: '🔌 *Win El Dhaw*\n\nSignalez une coupure :\n1. Envoyez votre *position* 📍\n2. Choisissez un gouvernorat 👇\n3. Écrivez un nom (ex: "Coupure Sfax")',
         parse_mode: 'Markdown',
         reply_markup: govKeyboard(),
       })

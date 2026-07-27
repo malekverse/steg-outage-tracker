@@ -272,7 +272,7 @@ export async function reverseGeocodeLocation(lat: number, lng: number): Promise<
   try {
     const url = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&addressdetails=1&accept-language=fr&zoom=14`
     const res = await fetch(url, {
-      headers: { 'User-Agent': 'STEGOutageTracker/1.0' },
+      headers: { 'User-Agent': 'WinElDhaw/1.0' },
       signal: AbortSignal.timeout(5000),
     })
     if (!res.ok) throw new Error('Nominatim error')

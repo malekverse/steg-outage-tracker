@@ -1,7 +1,7 @@
 {
-  "name": "STEG Cut Tracker Tunisia",
-  "short_name": "STEG Tracker",
-  "description": "Real-time power outage map for Tunisia",
+  "name": "Win El Dhaw",
+  "short_name": "Win El Dhaw",
+  "description": "Real-time community power outage map for Tunisia",
   "start_url": "/",
   "display": "browser",
   "background_color": "#f8fafc",

@@ -1,5 +1,5 @@
 -- ============================================================
--- STEG Cut Tracker Tunisia — Supabase/PostGIS Schema
+-- Win El Dhaw — Supabase/PostGIS Schema
 -- ============================================================
 
 CREATE EXTENSION IF NOT EXISTS postgis;

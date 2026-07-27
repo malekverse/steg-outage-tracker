@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a bug to help improve STEG Cut Tracker
+about: Report a bug to help improve Win El Dhaw
 title: '[BUG] '
 labels: bug
 assignees: ''

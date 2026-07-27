@@ -8,7 +8,7 @@ export default function ShareButton({ compact = false }: { compact?: boolean }) 
 
   async function share() {
     const data = {
-      title: 'STEG Cut Tracker Tunisia',
+      title: 'Win El Dhaw — Tunisia',
       text: 'Live power outage map for Tunisia',
       url: window.location.href,
     }

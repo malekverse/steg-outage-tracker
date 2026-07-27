@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for your interest in STEG Cut Tracker Tunisia!
+Thanks for your interest in Win El Dhaw!
 
 ## How to Contribute
 

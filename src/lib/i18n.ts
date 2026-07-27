@@ -10,9 +10,9 @@ type TranslationMap = Record<string, Record<Lang, string>>
 
 const translations: TranslationMap = {
   'app.title': {
-    fr: 'STEG Cut Tracker',
-    ar: 'متعقب انقطاع التيار',
-    en: 'STEG Cut Tracker',
+    fr: 'Win El Dhaw',
+    ar: 'وين الضوء',
+    en: 'Win El Dhaw',
   },
   'app.subtitle': {
     fr: 'Tunisie',

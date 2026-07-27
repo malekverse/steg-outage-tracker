@@ -1,8 +1,8 @@
-# STEG Cut Tracker Tunisia — Project Tracker
+# Win El Dhaw — Project Tracker
 
 ## Project Structure
 ```
-steg-outage-tracker/
+win-el-dhaw/
 ├── .env.local                      # Environment variables template
 ├── .gitignore
 ├── package.json

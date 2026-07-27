@@ -1,5 +1,5 @@
 -- ============================================================
--- STEG Cut Tracker — SAFE MIGRATION (run on existing Supabase DB)
+-- Win El Dhaw — SAFE MIGRATION (run on existing Supabase DB)
 -- Use this instead of re-running schema.sql from scratch.
 -- Idempotent: safe to run multiple times.
 -- ============================================================

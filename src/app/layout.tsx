@@ -14,18 +14,18 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'STEG Cut Tracker — Tunisia Power Outage Map',
+  title: 'Win El Dhaw — Tunisia Power Outage Map',
   description:
-    'Real-time power outage tracking map for Tunisia. Report and monitor STEG electricity cuts with live community updates.',
+    'Real-time community power outage map for Tunisia. Report cuts with GPS, see live zones, and get nearby alerts.',
   icons: {
     icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],
   },
   openGraph: {
-    title: 'STEG Cut Tracker — Tunisia',
-    description: 'Live power outage map for Tunisia. Report and track STEG cuts.',
+    title: 'Win El Dhaw — Tunisia',
+    description: "Live power outage map for Tunisia. Where's the light?",
     type: 'website',
     locale: 'fr_TN',
-    siteName: 'STEG Cut Tracker',
+    siteName: 'Win El Dhaw',
   },
 }
 
